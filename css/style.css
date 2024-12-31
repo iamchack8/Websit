@@ -34,17 +34,17 @@ body{
 .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover{
     color: rgb(224, 217, 12);
 }
-.contact_info ul{
+.index_info ul{
     list-style: none;
     padding-left: 0;
 }
-.contact_info ul li{
+.index_info ul li{
     display: inline-block;
     font-size: 30px;
 }
-.contact_info ul li a{
+.index_info ul li a{
     color: aliceblue;
 }
-.contact_info ul li a:hover{
+.index_info ul li a:hover{
     color: rgb(224, 217, 12);
 }
