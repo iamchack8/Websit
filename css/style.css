@@ -1,0 +1,50 @@
+body{
+    background-image: url(../images/BG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: rgb(231, 231, 231);
+}
+
+.bg_gray{
+    background-color: rgba(50, 50, 50, 0.6);
+}
+
+.navbar-light .navbar-brand{
+    color: rgb(231, 231, 231);
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+    color: rgb(49, 49, 49);
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: rgb(231, 231, 231);
+}
+
+.active{
+    background-color: rgb(231, 231, 231);
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+    color: rgb(224, 217, 12);
+}
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover{
+    color: rgb(224, 217, 12);
+}
+.contact_info ul{
+    list-style: none;
+    padding-left: 0;
+}
+.contact_info ul li{
+    display: inline-block;
+    font-size: 30px;
+}
+.contact_info ul li a{
+    color: aliceblue;
+}
+.contact_info ul li a:hover{
+    color: rgb(224, 217, 12);
+}
